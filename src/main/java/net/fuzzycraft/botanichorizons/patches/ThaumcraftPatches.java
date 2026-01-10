@@ -151,7 +151,7 @@ public class ThaumcraftPatches {
                     ItemStack blockWhite = new ItemStack(ModBlocks.livingrock);
                     ItemStack blockBlue = new ItemStack(Blocks.lapis_block);
                     ItemStack blockMana = new ItemStack(ModBlocks.storage, 1, 0);
-                    ItemStack gemTier = new ItemStack((Item) Item.itemRegistry.getObject("dreamcraft:item.EngravedDiamondCrystalChip"));
+                    ItemStack gemTier = new ItemStack((Item) Item.itemRegistry.getObject("dreamcraft:EngravedDiamondCrystalChip"));
                     ingredients.add(blockWhite);
                     ingredients.add(8, blockWhite);
                     ingredients.add(blockBlue);
